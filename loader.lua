@@ -7,7 +7,7 @@ if not success then
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "Script Loader",
+    Name = "stand power script Loader",
     LoadingTitle = "Загрузка...",
     LoadingSubtitle = "Система управления скриптами",
     ConfigurationSaving = {
@@ -20,7 +20,7 @@ local MainTab = Window:CreateTab("Главная", nil)
 MainTab:CreateSection("Выбор версии скрипта")
 
 MainTab:CreateButton({
-    Name = "Загрузить Script v1",
+    Name = "Script v1",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
@@ -43,7 +43,7 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Загрузить Script v2",
+    Name = "Script v2",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
