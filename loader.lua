@@ -20,7 +20,7 @@ local MainTab = Window:CreateTab("Главная", nil)
 MainTab:CreateSection("Выбор версии скрипта")
 
 MainTab:CreateButton({
-    Name = "Script v1",
+    Name = "Script v1.0",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
@@ -43,7 +43,7 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Script v2",
+    Name = "Script v1.1",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
