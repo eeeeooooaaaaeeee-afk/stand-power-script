@@ -33,7 +33,7 @@ local MainTab = Window:CreateTab("Главная", "rbxassetid://4483345998")
 local Section = MainTab:CreateSection("Выбор скрипта")
 
 local Button1 = MainTab:CreateButton({
-    Name = "Script v1 (Stable)",
+    Name = "Script v1",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
@@ -66,7 +66,7 @@ local Button1 = MainTab:CreateButton({
 })
 
 local Button2 = MainTab:CreateButton({
-    Name = "Script v2",
+    Name = "Script v2 (better)",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
@@ -99,12 +99,6 @@ local Button2 = MainTab:CreateButton({
         end
     end,
 })
-
-local InfoSection = MainTab:CreateSection("Информация")
-
-MainTab:CreateLabel("Выберите версию скрипта для загрузки")
-MainTab:CreateLabel("Script v1 - текущая версия")
-MainTab:CreateLabel("Script v2 - будет доступен позже")
 
 Rayfield:Notify({
     Title = "Script Loader",
