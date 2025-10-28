@@ -33,7 +33,7 @@ local MainTab = Window:CreateTab("Главная", "rbxassetid://4483345998")
 local Section = MainTab:CreateSection("Выбор скрипта")
 
 local Button1 = MainTab:CreateButton({
-    Name = "Script v1",
+    Name = "Script v1 (Stable)",
     Callback = function()
         Rayfield:Notify({
             Title = "Загрузка",
