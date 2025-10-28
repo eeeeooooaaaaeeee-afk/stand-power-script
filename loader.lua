@@ -74,20 +74,9 @@ local Button2 = MainTab:CreateButton({
             Duration = 3,
             Image = 4483362458
         })
-        
-        -- Замените "НАПИШУ ЕГО ПОЗЖЕ" на реальный URL когда будет готов
-        local scriptUrl = "НАПИШУ ЕГО ПОЗЖЕ"
-        
-        if scriptUrl == "НАПИШУ ЕГО ПОЗЖЕ" then
-            Rayfield:Notify({
-                Title = "Внимание",
-                Content = "URL для Script v2 еще не установлен!",
-                Duration = 5,
-                Image = 4483362458
-            })
-            return
-        end
-        
+            
+        local scriptUrl = "https://raw.githubusercontent.com/eeeeooooaaaaeeee-afk/stand-power-script/refs/heads/main/script-v2.lua?token=GHSAT0AAAAAADMMYNXEB5OYEAHYDVCC3EO22IBCLNQ"
+            
         local success, result = pcall(function()
             return game:HttpGet(scriptUrl)
         end)
